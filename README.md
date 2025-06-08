@@ -540,5 +540,8 @@
             bulkRestaurantInput.addEventListener('keypress', e => { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { handleAddBulkRestaurants(); e.preventDefault(); } });
         });
     </script>
+    <footer class="mt-8 text-xs text-center text-slate-400">
+  صنع بواسطة عمك يزيد
+</footer>
 </body>
 </html>
